@@ -1,4 +1,4 @@
-# sports-quiz
+# SPORTS QUIZ FOR DUMMIES
 
 ## PROJECT-4 OF RUTGERS CODING BOOTCMAP COURSE
 
@@ -16,3 +16,7 @@ We first selected our "Start-Btn" class and made a function to start the game wh
 
 ## JAVASCRIPT STRUCTURE
 Our Javascript was broken into multiple parts, starting with our variables. From there we created objects for our questions and answers, eventually leading into our local storage. 
+
+Link To Application: https://armond-guze.github.io/sports-quiz-for-dummies/
+
+![Image-of-Repo](Assets\image.png)
