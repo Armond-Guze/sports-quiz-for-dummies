@@ -19,4 +19,4 @@ Our Javascript was broken into multiple parts, starting with our variables. From
 
 Link To Application: https://armond-guze.github.io/sports-quiz-for-dummies/
 
-![Image-of-Repo](Assets\image.png)
+![Image-of-Repo](Assets/image.png)
