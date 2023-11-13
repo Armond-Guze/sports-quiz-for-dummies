@@ -13,3 +13,6 @@ Our Stylesheet was simple but intuitive. A white box in the center of the screen
 
 ## playQuestion FUNCTION
 We first selected our "Start-Btn" class and made a function to start the game when clicked for the Javascript
+
+## JAVASCRIPT STRUCTURE
+Our Javascript was broken into multiple parts, starting with our variables. From there we created objects for our questions and answers, eventually leading into our local storage. 
