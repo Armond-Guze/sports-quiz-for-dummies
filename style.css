@@ -64,3 +64,9 @@ body {
 .hide {
     display: none;
 }
+
+#time {
+    display: flex;
+    position: absolute;
+    margin-bottom: 500px;
+}

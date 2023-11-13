@@ -7,12 +7,12 @@ var button3 = document.getElementById("answer3");
 var button4 = document.getElementById("answer4");
 
 var currentQuestion = 0;
-var secondsLeft = 30;
+var secondsLeft = 5;
 
 function setTime() {
     var timerInterval = setInterval(function() {
     secondsLeft--;
-    timer.textContent = secondsLeft;
+    timer.textContent = secondsLeft + " seconds left"
 
     if (secondsLeft === 0) {
         clearInterval(timerInterval);
@@ -23,7 +23,7 @@ function setTime() {
 }
 
 function sendMessage() {
-    timer.textContent = "";
+    timer.textContent = "You ran out of time!";
 }
 
 var questions = [
@@ -33,7 +33,7 @@ var questions = [
     correctAnswer: 0,
   },
   {
-    question: " What is the best football team in New York",
+    question: " Who is the best football team in New York",
     answers: ["Rams", "Giants", "Patriots", "Chiefs"],
     correctAnswer: 1,
   },
@@ -47,6 +47,7 @@ var questions = [
     answers: ["Idaho", "Nebraska", "Atlanta", "New York"],
     correctAnswer: 3,
   },
+  localStorage.setItem("questions", JSON.stringify(questions))
 ];
 
 startButton.addEventListener("click", playQuestion);
@@ -101,7 +102,7 @@ function nextQuestion() {
 }
 
 function playQuestion() {
-  console.log("started");
+  
   startButton.classList.add("hide");
   questionContainerElement.classList.remove("hide");
   document.getElementById("question").textContent =
